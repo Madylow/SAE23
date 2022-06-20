@@ -61,7 +61,7 @@
     <form action="supp_bat.php" method="post" enctype="multipart/form-data">
       <fieldset>
         <legend>Information sur le batiment</legend>
-        <label for="bat"><strong>Nom du batiment à ajouter : <?php echo $type ?></strong></label>
+        <label for="bat"><strong>Nom du batiment à supprimer : <?php echo $type ?></strong></label>
         <input type="text" name="bat" id ="bat" />
         <br />
         <label for="nom_g">  Nom du gestionnaire du batiment: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
