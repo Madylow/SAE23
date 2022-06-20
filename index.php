@@ -49,16 +49,16 @@
 
         /* Affichage de la liste des pièces  */
         echo '<div class="tablo">';
-        echo '<table>'
+        echo '<table>';
         while($ligne=mysqli_fetch_assoc($resultat))
          {  
           extract($ligne);
-          echo '<tr>'
+          echo '<tr>';
           echo  "<td> $id_bat </td>";
           echo  "<td> $nom </td>";
-          echo '</tr>'
+          echo '</tr>';
          }
-        echo '</table>'
+        echo '</table>';
         echo '</div>';
     ?>
   </section>
