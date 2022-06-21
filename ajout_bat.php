@@ -12,9 +12,9 @@
   echo '<div class="ajout">';
   echo "<br /><strong>Le batiment suivant a ete ajoute : </strong><br />";
   echo "<ul>
-  <li> Libellé de la pi&egrave;ce : $nom_bat</li>
-  <li> Tarif de la pi&egrave;ce : $nom_gest</li>
-  <li> Code du type de la pi&egrave;ce : $modep_gest</li>
+  <li> Nom bâtiment: $nom_bat</li>
+  <li> Nom gestionnaire : $nom_gest</li>
+  <li> Mot de passe gestionnaire : $modep_gest</li>
   </ul>
   </div>";
 ?>
